@@ -2,7 +2,7 @@
 {
   "name": "@ospfranco/react-native-local-network-permission",
   "version": "1.0.0",
-  "description": "",
+  "description": "Check and request local network permissions on iOS > 14",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -12,8 +12,11 @@
     "lint": "tslint -p tsconfig.json"
   },
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "ios",
+    "react-native-local-network-permission.podspec"
   ],
+  "homepage": "https://github.com/ospfranco/react-native-local-network-permission#readme",
   "keywords": [
     "react-native",
     "local-network-permission"
@@ -21,7 +24,7 @@
   "author": "Oscar <ospfranco@protonmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "*"
+    "react-native": "^0.0.0-0 || 0.60 - 0.72 || 1000.0.0"
   },
   "devDependencies": {
     "@types/jest": "^25.1.2",
