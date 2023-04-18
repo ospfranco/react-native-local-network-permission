@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-local-network-permission",
+  "name": "@ospfranco/react-native-local-network-permission",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -18,10 +18,10 @@
     "react-native",
     "local-network-permission"
   ],
-  "author": "bruce <ljb_iss@hotmail.com>",
-  "license": "BSD-2",
+  "author": "Oscar <ospfranco@protonmail.com>",
+  "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "*"
   },
   "devDependencies": {
     "@types/jest": "^25.1.2",
